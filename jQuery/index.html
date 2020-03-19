@@ -5,113 +5,50 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>To do list</title>
-    <link rel="stylesheet" href="./fa/css/all.css">
-    <link rel="stylesheet" href="./css/normalize.css">
-    <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="./assets/fa/css/all.css">
+    <link rel="stylesheet" href="./assets/css/normalize.css">
+    <link rel="stylesheet" href="./assets/css/main.css">
     <link href="https://fonts.googleapis.com/css?family=Lato|Roboto+Condensed&display=swap" rel="stylesheet">
-
-
-
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.js"></script>
+    <script src="./assets/js/main.js"></script>
 </head>
 
 <body>
     <div class="contaier">
         <div class='header'>
             <h2 class='headings'>To do list <i class="fas fa-list-alt"></i></h2>
-            <button class='btn' id='main-btn'>Add <i class="far fa-calendar-plus"></i></button>
-
-
-
-
-
-
+            <button class='btn' id='main-btn'> Add <i class="far fa-calendar-plus"></i></button>
         </div>
         <div class='content'>
             <div id='incomplete'>
                 <h1 class='heading'>My lists</h1>
                 <ul id='ul'>
                     <li>
-                        <span class='circle-container' data-attr='undone'> 
-                        <i class="far fa-circle circle"> </i>
+                        <span class='circle-container'> 
+                        <i class="far fa-circle circle undone"> </i>
                         <i style='display:none;' class="far fa-check-circle done"> </i>
                     </span>
                         <p class='dos'>Drink Coffee</p>
                     </li>
                     <li>
-                        <span class='circle-container' data-attr='undone'> 
-                        <i class="far fa-circle circle"> </i>
+                        <span class='circle-container'> 
+                        <i class="far fa-circle circle undone"> </i>
                         <i style='display: none;' class="far fa-check-circle done"> </i>
                     </span>
                         <p class='dos'>Drink Coffee 2</p>
                     </li>
 
                     <li>
-                        <span class='circle-container' data-attr='undone'> 
-                        <i class="far fa-circle circle"> </i>
+                        <span class='circle-container'> 
+                        <i class="far fa-circle circle undone"> </i>
                         <i style='display: none;' class="far fa-check-circle done"> </i>
                     </span>
                         <p class='dos'>Drink Coffee 3</p>
                     </li>
 
                     <li>
-                        <span class='circle-container' data-attr='undone'> 
-                        <i class="far fa-circle circle"> </i>
-                        <i style='display: none;' class="far fa-check-circle done"> </i>
-                    </span>
-                        <p class='dos'>Drink Coffee 4</p>
-                    </li>
-
-                    <li>
-                        <span class='circle-container' data-attr='undone'> 
-                        <i class="far fa-circle circle"> </i>
-                        <i style='display: none;' class="far fa-check-circle done"> </i>
-                    </span>
-                        <p class='dos'>Drink Coffee 4</p>
-                    </li>
-
-                    <li>
-                        <span class='circle-container' data-attr='undone'> 
-                        <i class="far fa-circle circle"> </i>
-                        <i style='display: none;' class="far fa-check-circle done"> </i>
-                    </span>
-                        <p class='dos'>Drink Coffee 4</p>
-                    </li>
-
-                    <li>
-                        <span class='circle-container' data-attr='undone'> 
-                        <i class="far fa-circle circle"> </i>
-                        <i style='display: none;' class="far fa-check-circle done"> </i>
-                    </span>
-                        <p class='dos'>Drink Coffee 4</p>
-                    </li>
-
-                    <li>
-                        <span class='circle-container' data-attr='undone'> 
-                        <i class="far fa-circle circle"> </i>
-                        <i style='display: none;' class="far fa-check-circle done"> </i>
-                    </span>
-                        <p class='dos'>Drink Coffee 4</p>
-                    </li>
-
-                    <li>
-                        <span class='circle-container' data-attr='undone'> 
-                        <i class="far fa-circle circle"> </i>
-                        <i style='display: none;' class="far fa-check-circle done"> </i>
-                    </span>
-                        <p class='dos'>Drink Coffee 4</p>
-                    </li>
-
-                    <li>
-                        <span class='circle-container' data-attr='undone'> 
-                        <i class="far fa-circle circle"> </i>
-                        <i style='display: none;' class="far fa-check-circle done"> </i>
-                    </span>
-                        <p class='dos'>Drink Coffee 4</p>
-                    </li>
-
-                    <li>
-                        <span class='circle-container' data-attr='undone'> 
-                        <i class="far fa-circle circle"> </i>
+                        <span class='circle-container'> 
+                        <i class="far fa-circle circle undone"> </i>
                         <i style='display: none;' class="far fa-check-circle done"> </i>
                     </span>
                         <p class='dos'>Drink Coffee 4</p>
@@ -135,16 +72,11 @@
 
                 <h3>Add to do</h3>
                 <input type="text" placeholder="Add your to-do" name="To-do" class='ip1' id='text-value'>
-                <input type="submit" class='ip2' id='ip2' value="Add">
+                <input type="submit" class='ip2 add_todo' id='ip2' value="Add">
 
             </div>
         </div>
     </div>
-
-
-
-    <script src="./js/main.js"></script>
-
 </body>
 
 </html>

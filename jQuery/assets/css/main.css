@@ -87,7 +87,7 @@ body {
     top: -50%;
     margin: 0 auto;
     width: 100%;
-    background-image: url(../images/bg2.jpg);
+    background-image: url("../images/bg2.jpg");
     background-position: center;
     height: 250px;
     border-radius: 2em;
@@ -221,4 +221,13 @@ span:active {
 #container-popoup:hover .contaier {
     opacity: .2;
     border: 2px solid red;
+}
+
+.strike-out-text {
+    text-decoration: line-through;
+    opacity: 0.5;
+}
+
+#completed_list {
+    margin-left: 2.5em;
 }
